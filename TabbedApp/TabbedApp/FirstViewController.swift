@@ -48,5 +48,8 @@ extension FirstViewController:UITableViewDelegate,UITableViewDataSource{
     return myCell
   }
   
+  func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    return "My favorite movies"
+  }
   
 }
